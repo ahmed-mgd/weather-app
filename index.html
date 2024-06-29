@@ -19,11 +19,18 @@
         <input type="text" id="query" name="query">
         <button id="submit-button" type="button">Submit</button>
       </div>
-      <div id="current">
-        <h3 id="current-title">
-          Current Weather in <span id="location">...</span>
-        </h3>
-
+      <div id="weather">
+        <div id="current">
+          <h3 id="current-title">
+            Current Weather in <span id="location"></span>
+          </h3>
+          <div id="current-info">
+            <img src="#" alt="#" id="c-icon">
+            <h3 id="condition"></h3>
+            <h1 id="temp"></h1>
+            <h4 id="feel"></h4>
+          </div>
+        </div>
       </div>
     </div>
     <script type="module" src="/main.js"></script>

@@ -27,14 +27,14 @@
   height: var(--nav-height);
 }
 
-#units>li {
+#units > li {
   list-style: none;
   display: inline;
   margin: 0 1rem;
 }
 
 #main {
-  padding: 2rem 20%;
+  padding: 2rem 30%;
 }
 
 #search {
@@ -48,4 +48,33 @@
 
 #current-title {
   border-bottom: 1px solid;
+  padding: 0.7rem 0;
+}
+
+#location {
+  color: gray;
+}
+
+#current-info {
+  display: grid;
+  grid-template-areas:
+    "c-icon temp feel feel"
+    "c-icon temp wind wind"
+    "c-icon temp . ."
+    "condition condition . .";
+  padding: 1rem;
+}
+
+#c-icon {
+  grid-area: c-icon;
+}
+#condition {
+  grid-area: condition;
+}
+#temp {
+  grid-area: temp;
+  font-size: 60px;
+}
+#feel {
+  grid-area: feel;
 }
