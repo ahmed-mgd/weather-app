@@ -32,3 +32,20 @@
   display: inline;
   margin: 0 1rem;
 }
+
+#main {
+  padding: 2rem 20%;
+}
+
+#search {
+  padding: 1rem 0;
+}
+
+#current {
+  padding: 1rem;
+  border: 1px solid;
+}
+
+#current-title {
+  border-bottom: 1px solid;
+}
