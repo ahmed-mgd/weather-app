@@ -1,6 +1,9 @@
 # Weather App
 
 Web application that reports the weather for a given city using WeatherAPI.
+
+Live Demo: https://ahmed-mgd.github.io/weather-app/
+
 ![screenshot](public/sc.png)
 
 ## Installation and Usage
